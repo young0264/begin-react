@@ -1,18 +1,12 @@
 import React from 'react';
-import Hello from './Hello';
+// import Hello from './Hello';
 // import './App.css';
-import Wrapper from './Wrapper';
+// import Wrapper from './Wrapper';
+import Counter from './Counter';
 
 function App() {
-  // let nameByLet = 'react test1';
-  // const nameByConst = 'react test2';
-
   return (
-    <Wrapper>
-      <Hello name="react" color="red" isSpecial/>
-      <Hello color="pink"/>
-      <h2>123213</h2>
-    </Wrapper>
+    <Counter />
   );
 }
 
